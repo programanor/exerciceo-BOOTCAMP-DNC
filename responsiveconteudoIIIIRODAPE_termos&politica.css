@@ -1,0 +1,32 @@
+@media(min-width:300px) and (max-width:1060px){
+     #final #conteud_Term a{
+        font-size:15px;
+    }
+
+    #conteud_Term b{
+        font-size:14px;
+    }
+}
+
+@media(min-width:200px) and (max-width:300px){
+    #final #conteud_Term a{
+       font-size:10px;
+   }
+
+   #conteud_Term b{
+       font-size:13px;
+
+   }
+}
+
+@media(min-width:100px) and (max-width:200px){
+    #final #conteud_Term a{
+       font-size:6px;
+       font-weight: 400;
+   }
+
+   #conteud_Term b{
+       font-size:8px;
+
+   }
+}

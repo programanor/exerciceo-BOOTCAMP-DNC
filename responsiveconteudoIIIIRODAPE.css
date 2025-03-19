@@ -1,0 +1,97 @@
+/*style responsive conteudo IIII RODAPE*/
+@media(min-width:800px) and (max-width:1060px){
+    
+    #conteudFooterI nav{ /*aqui foi realizado esse stylo, com o conteudo da TAG pai NAV,
+                         para retirar o excesso de espaço do backgroud dos titulo da usada h3.
+                         Deixando todo conteudo primeiramente flexivel, e em linha,para depois em posição
+                         de coluna, para por fim alinhar no centro, proporcionado no caso aqui que os espaço
+                         das TAG que estavam com exesso de tamanho nas laterais, valtassem ao tamanho normal.     */
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    #conteudFooterI nav h3{
+        font-size:22px;
+        padding:6px 6px 6px 6px
+    }
+    #conteudFooterI nav ul li a{
+        font-size:20px;
+    }
+    #conteudFooterII h5{
+        font-size:12px;
+    }
+
+}
+@media(min-width:600px) and (max-width:800px){
+    
+    #conteudFooterI nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    #conteudFooterI nav h3{
+        font-size:20px;
+        padding:6px 6px 6px 6px
+    }
+    #conteudFooterI nav ul li a{
+        font-size:18px;
+    }
+    #conteudFooterII h5{
+        font-size:11px;
+    }
+}
+@media(min-width:300px) and (max-width:600px){
+    #conteudFooterI nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    #conteudFooterI nav h3{
+        font-size:20px;
+        padding:6px 6px 6px 6px
+    }
+    #conteudFooterI nav ul li a{
+        font-size:18px;
+    }
+    #conteudFooterI{
+        display:flex;
+        display: block;
+
+    }
+    #conteudFooterII h5{
+        font-size:12px;
+    }
+    #conteudFooterII{
+        text-align:center;
+       
+    }
+
+}
+
+@media(min-width:80px) and (max-width:300px){
+    #conteudFooterI nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }
+    #conteudFooterI nav h3{
+        font-size:16px;
+        padding:6px 6px 6px 6px
+    }
+    #conteudFooterI nav ul li a{
+        font-size:14px;
+    }
+    #conteudFooterI{
+        display:flex;
+        display: block;
+
+    }
+    #conteudFooterII h5{
+        font-size:8px;
+    }
+    #conteudFooterII{
+        text-align:center;
+       
+    }
+
+}

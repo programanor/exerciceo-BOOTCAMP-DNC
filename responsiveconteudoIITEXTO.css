@@ -1,0 +1,64 @@
+
+/*style responsive conteudo II TEXTO*/
+@media(min-width:700px) and (max-width:900px){
+    #textII{
+        color:white;
+        text-align:center;
+        margin-top:50px;
+        font-size:30px;
+        
+    }
+}
+
+@media(min-width:500px) and (max-width:700px){
+    #textII{
+        color:white;
+        text-align:center;
+        margin-top:30px;
+        font-size:20px;
+        
+    }
+}
+
+@media(min-width:350px) and (max-width:500px){
+    #textII{
+        color:white;
+        text-align:center;
+        margin-top:20px;
+        font-size:16px;
+        /* text-align: justify;  */
+        
+    }
+}
+
+@media(min-width:300px) and (max-width:350px){
+    #textII{
+        color:white;
+        text-align:center;
+        margin-top:20px;
+        font-size:13px;
+        
+        
+    }
+}
+
+@media(min-width:100px) and (max-width:300px){
+    #textII{
+        color:white;
+        text-align:center;
+        margin-top:20px;
+        font-size:12px;
+        text-align: justify; 
+        /* margin-left: 15px;
+        margin-right:15px; */
+        width:70%;
+        margin: auto;
+    }
+  
+
+    #textII h1{
+        font-size:15px;
+        text-align: center;
+       
+    }
+}

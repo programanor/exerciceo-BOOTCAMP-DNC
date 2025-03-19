@@ -1,0 +1,234 @@
+/* variaveis */
+:root{
+    /*cores*/
+    --cor-fund:rgba(65, 83, 71, 0.473);
+    --cor-letras:rgba(244, 232, 232, 0.891);
+    --cor-botao:blue;
+    --cor-letras-fundo:white;
+    /*fontes letras*/
+    --font-family:'inter';
+    --tamanho:21px;
+    /*especura da font*/
+    --grosuraLETRA:weight:320px;
+}
+
+
+/* STYLE CABEÇALHO */
+body{
+    background:linear-gradient(180deg , rgb(59, 105, 204) 19.2%, rgb(14, 13, 13) 126.2%  );
+    background-repeat: no-repeat;
+    font-family: 'inter';
+    margin: 0px;
+    padding:0px
+}
+#cabecalho{
+   background-color:rgb(86, 75, 75);
+}
+#cabecalho{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+
+#textI {
+   padding-top: 20px;
+   padding-bottom: 28px;
+}
+#textI a{
+    font-size:25px;
+    text-decoration: none; 
+    color: white;
+    margin-left:70px;
+}
+#textI a:hover{
+    color:rgb(215, 59, 59) ;
+    transition: 0.6s;
+}
+/*style botãoI links cabeçalho*/
+#botaoI{
+    width:126px;
+    height:42px;
+    color:white;
+    background-color:blue;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-top: 20px;
+    font-weight: 620px;
+}
+#botao{
+    margin-left:720px;
+}
+#botaoI:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    box-shadow: 14px 14px 12px rgba(103, 103, 144, 0.969);
+}
+
+/*  STYLE CONTEÚDO II TEXTO  */
+#textII{
+    color:white;
+    text-align:center;
+    margin-top:70px;
+    font-size:78px;
+}
+strong{
+    background-color: black;
+}
+
+ /* CONTEÚDO  III FORMULÁRIO  */
+ form {
+    color:white;
+    font-size:13px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contForm{
+    display:flex;
+    flex-direction:column;
+}
+.nomeInform{
+    font-size:38px;
+}
+.inform{
+    width:560px;
+    height:48px;
+    border:0px;
+    border-radius:8px;
+    background-color:rgba(255, 255, 255, 0.867);
+}
+.contForm{
+    margin-top:15px;
+}
+::placeholder{
+    font-size:18px;
+    color: rgb(54, 49, 49);
+    padding-left:6px;
+}
+
+/*stylo check box*/
+#check{
+    margin-top:10px;
+    align-items:center;
+}
+#check {
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+ }
+ #check #nomecheck{
+    font-size:38px
+ }
+ #check .marco{
+    width:20px;
+    height:20px;
+}
+#check label{
+    font-size:33px;
+}
+ 
+/*stylo botãoII formulário*/
+#botaoII{
+    width:560px;
+    height:48px;
+    border:0px;
+    border-radius:8px;
+    background-color:var( --cor-botao);
+    color:var( --cor-letras-fundo);
+    margin: 0px;
+    margin-top:40px;
+    margin-bottom: 140px;
+    font-size:18px;
+    cursor:pointer;
+}
+#botaoII:hover{
+    scale:1.1;
+    transition:0.5s;
+    box-shadow: 14px 14px 12px rgba(103, 103, 144, 0.969);
+}
+
+/* STYLE RODA PÉ */
+
+/*1º links de acesso*/
+footer{
+    background-color:rgb(62, 62, 234);
+    width:100%;
+}
+#conteudFooterI{
+    display:flex;
+    justify-content: space-around;/*alinha de forma horizontal dividindo os espaços direita e esquerda por igual */
+}
+ #conteudFooterI nav ul li a{
+    font-size:32px;
+}
+#conteudFooterI nav ul li a:hover{
+    color:brown;
+    transition:0.5s
+}
+#conteudFooterI h3{
+    color:white;
+    text-align:center;
+    background-color:black;
+    font-size:45px;
+    border-radius: 12px;
+    font-weight: 800;
+}
+#conteudFooterI ul {
+    margin-left: 0px;  
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+}
+#conteudFooterI ul li a{
+    color: white; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+/*2º texto de endereço*/
+#conteudFooterII {
+    color:white;
+    align-content: center; /*alinha realmente no meio, no centro da div*/
+    font-size:31px;
+}
+
+/*3º roda pé*/
+#final{
+    padding-bottom: 10px;
+}
+#conteud_Term a{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#conteud_Term b{
+    color:white;
+    font-size:35px;
+}
+#conteud_Term {
+    text-align: center;
+    margin-bottom: 12px;
+}
+#final #conteud_Term a{
+    font-size:26px;
+}
+#final #conteud_Term a:hover{
+    color:brown;
+    transition:0.5s;
+}
+
+
+
+/* #final #conteud_Term a:first-child{
+
+    border-right:4px solid white;
+} */
+
+
+
+
+

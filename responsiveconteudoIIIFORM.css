@@ -1,0 +1,161 @@
+
+/*style responsive conteudo III FORM*/
+@media(min-width:280px) and (max-width:900px){
+
+  .inform{
+    width:250px;
+    height:26px
+
+  } 
+
+  #check{
+
+    display:flex;
+    flex-direction: column;
+}
+
+#check #nomecheck{
+  font-size:18px;
+}
+
+#check label{
+  font-size:15px;
+}
+
+#check .marco{
+  width:12px;
+  height:12px;
+  margin-top: 16px;
+
+}
+  
+  .contForm .nomeInform{
+
+    font-size:18px;
+  }
+
+  
+  #botaoII{
+   
+    margin-bottom:32px;
+    width:200px;
+    height:26px
+    
+  }
+}
+
+@media(min-width:180px) and (max-width:280px){
+
+    form{
+        background-color:rgb(13, 1, 102);
+        
+    }
+
+    .inform{
+      width:150px;
+      height:26px
+  
+    } 
+
+    #check{
+
+      display:flex;
+      flex-direction: column;
+  }
+
+
+
+  #check #nomecheck{
+    font-size:13px;
+  }
+  
+  #check label{
+    font-size:12px;
+  }
+  
+  #check .marco{
+    width:14px;
+    height:14px;
+    margin-top: 14px;
+  
+  }
+    
+  
+
+    .contForm .nomeInform{
+
+      font-size:13px;
+    }
+
+    ::placeholder{
+        color: rgb(48, 7, 149);
+        padding-left:6px;
+        font-size:8px;
+    }
+
+    .marco{
+        width:8px;
+        height:8px;
+    }
+    #botaoII{
+      
+      margin-bottom:15px;
+      width:100px;
+      height:26px
+    }
+  }
+
+  @media(min-width:80px) and (max-width:180px){
+
+    form{
+        background-color:rgba(181, 220, 24, 0.975);
+        
+    }
+    form label{
+        color:rgb(247, 5, 5);
+    }
+
+    .inform{
+      width:100px;
+      height:18px
+  
+    } 
+
+    #check{
+
+        display:flex;
+        flex-direction: column;
+    }
+
+    #check #nomecheck{
+      font-size:12px;
+    }
+    
+    #check label{
+      color:blue;
+      font-size:9px;
+    }
+
+    .contForm .nomeInform{
+
+      font-size:10px;
+    }
+
+    ::placeholder{
+        color: rgb(48, 7, 149);
+        padding-left:6px;
+        font-size:5px;
+    }
+
+    #check .marco{
+        width:12px;
+        height:12px;
+    }
+    #botaoII{
+      margin-bottom:15px;
+      font-size:8px;  
+      width:50px;
+      height:20px
+      
+    }
+  }
